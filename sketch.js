@@ -1,3 +1,16 @@
+var arr1 = [1,2,3,4,5]
+console.log(arr1);
+
+var arr2 = ["name", 100 , true]
+console.log(arr2);
+
+var arr3 = [[1,2],[2,3],[3,4]]
+console.log(arr3);
+
+arr3.push("my name")
+console.log(arr3);
+
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
